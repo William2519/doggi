@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dogs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <style>
+            h1{
+                text-align:center;
+                color:chocolate;
+                position:relative;
+                animation-name:Header;
+                animation-duration:4s;
+                top:-500;
+            }
+            body{
+                background-color:bisque;
+            }
+            p{
+                text-align:center;
+                position:relative;
+                animation-name:paragraph;
+                animation-duration:4s;
+                animation-delay:4s;
+                left:-1000px;
+                animation-timing-function: linear;
+                animation-fill-mode: forwards;
+            }
+            h2{
+                text-align:center;
+                position:relative;
+                animation-name:header2;
+                animation-duration:4s;
+                animation-delay:8s;
+                left:-1000px;
+                animation-timing-function: linear;
+                animation-fill-mode: forwards;
+            }
+            tr, td, table{
+               text-align: center;
+               padding: 10px;
+               border: 1px solid black;
+               border-collapse: collapse;
+           }
+           table{
+               width:100%;
+           }
+           #table1{
+                background-color:bisque;
+                position: relative;
+                animation-name: testAnimation;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-fill-mode: forwards;
+                transition-duration: 2s;
+                transition-property: background-color;
+                opacity: 0;
+
+            }
+            #table1:hover{
+                opacity: 1;
+            }
+            @keyframes Header{
+                0%{top:-500px}
+                60%{top:20px}
+                64%{top:0px}
+                68%{top:20px}
+                70%{top:10px}
+                100%{top:20px}
+            }
+            @keyframes paragraph{
+                0%{left:-1000px}
+                100%{left:0px}
+            }
+            @keyframes header2{
+                0%{left:-1000px}
+                100%{left:0px}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MY TRUE THOUGHTS ON CATS VS. DOGS</h1>
+        <p> DURING THIS CAMP OUR DICTATOR LEADER FORCED A VIEW ON US THAT STATES THAT CATS ARE BETTER THAN DOGS. I WENT ALONG WITH THIS STATEMENT BECAUSE I WANTED TO LEARN HOW TO MAKE A WEBSITE. BUT SINCE THIS IS THE LAST DAY AND LAST PROJECT, I WRITE THIS TO SAY I OBJECT TO YOUR OPINION. I THINK THAT DOGS ARE FAR MORE SUPERIOR.</p>
+        <h2>hover over this text</h2>
+        <div id="table1">
+            <table>
+                <tr>
+                    <th>cuteness</th>
+                    <td>cats are decently cute.</td>
+                    <td>dogs, with hundreds of varieties that look diffrent, are far cuter than cats.</td>
+                </tr>
+                <tr>
+                    <th>enjoyableness/th>
+                    <td>cats are independent and will not play with you.</td>
+                    <td>dogs are very playful and are willing to play games such as fetch or chase.</td>
+                </tr>
+                <tr>
+                    <th>cats and dogs as pokemon</th>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/originals/f8/1b/3f/f81b3f6297b5f7fc16b04fe0fdea45d7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fat cat</h5>
+                          <p class="card-text">cats are questionable</p>
+                          <a href="https://placekitten.com/200/200" class="btn btn-primary">cats succ</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://i.pinimg.com/originals/4a/64/75/4a6475bffe61b6abb93d751daf7426aa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">good doggi</h5>
+                              <p class="card-text">best pet. and remember that dogs are related to wolfs,and wolves are cool</p>
+                              <a href="https://placedog.net/200/200" class="btn btn-primary">best pet</a>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>overview/summary</th>
+                    <td>cats are alright</td>
+                    <td>after this tbale comparrison, it should be clear that dogs are far more supeiror than cats.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
